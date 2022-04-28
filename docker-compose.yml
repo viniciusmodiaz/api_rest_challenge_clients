@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  laravel-app:
+    image: nginx:alpine
+    container_name: laravel-app
+    ports:
+      - "80:80"
+      # - "443:443"
+    volumes:
+      - ./:/usr/share/nginx
