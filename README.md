@@ -19,3 +19,4 @@ Suba os containers do projeto
 ``` bash
 docker-compose up -d
 ```
+Acesso a api http://localhost:8080/api
